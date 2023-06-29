@@ -25,5 +25,5 @@ saveScoreBtn. addEventListener('click', function saveHighScore(e){
     highScores.splice(5);
 
     localStorage.setItem('highScores', JSON.stringify(highScores));
-    window.location.assign('/Quiz%20App%20Master/index.html');
+    window.location.assign('/index.html');
 });
